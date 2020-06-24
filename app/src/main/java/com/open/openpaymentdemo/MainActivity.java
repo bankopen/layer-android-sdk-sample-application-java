@@ -13,8 +13,9 @@ import com.open.open_web_sdk.model.TransactionDetails;
 
 public class MainActivity extends AppCompatActivity implements PaymentStatusListener {
 
-    private String mPaymentToken = "sb_pt_BRnS2ttBJTs3vte";
-    private String mAccessKey = "b0adaaa0-be66-11e9-ac5e-3d22d7faebc8";
+    //Access key and payment token to be obtained for generating payment
+    private String mPaymentToken = "";
+    private String mAccessKey = "";
 
     private TextView mTextViewResponseText;
 
